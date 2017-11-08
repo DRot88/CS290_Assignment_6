@@ -1,0 +1,29 @@
+body {
+  background: #FFFFC4;
+}
+
+#responseArea, fieldset {
+  border: 2px solid grey;
+}
+
+::selection {
+  background: #ffb7b7;
+}
+
+p {
+  padding-left: 10px;
+  color: #484D52;
+}
+
+input {
+  margin-left: 10px;
+  color: #484D52;
+}
+
+label, legend {
+  color: #484D52;
+}
+
+span {
+  color: #5917BD;
+}

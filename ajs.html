@@ -1,0 +1,30 @@
+<!-- /******************************************************************* 
+** Author: Daniel Rotenberg
+** Date: 11/5/2017
+** Description: This file uses Asynchronous JavaScript to create POST
+                requests.
+************************************************************************* -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css">    
+  </head>
+  <body>
+     <form>
+      <fieldset>
+        <legend><b>Asynchronous JavaScript</b></legend>
+        <label for="userString"><b>Enter Anything</b></label>
+        <input type="text" name="userData" id="userString">
+        <input type="submit" id="dataSubmit">
+      </fieldset>
+    </form>
+    <br /><br />
+    <div id="responseArea">
+      <p><b>User Entered: </b><span id="userDataResponse"></span></p>
+      <p><b>Submitted Data To: </b><span id="submittedToURL"></span></p>
+      <p><b>Content Type: </b><span id="contentType"></span></p>
+    </div>
+  </body>
+  <script src="ajs.js"></script>
+</html>

@@ -1,0 +1,42 @@
+<!-- /******************************************************************* 
+** Author: Daniel Rotenberg
+** Date: 11/5/2017
+** Description: This HMTL file uses the Open Weather Map API to make
+                requests to Open Weather Map to get weather by Zip Code.
+************************************************************************* -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css">    
+  </head>
+  <body>
+     <form>
+      <fieldset>
+        <legend><b>Weather By Zip Code</b></legend>
+        <label for="Zip Code"><b>Enter Zip Code</b></label>
+        <input type="text" name="zip" id="zipCode">
+        <input type="submit" id="zipSubmit">
+      </fieldset>
+    </form>
+    <br />
+
+     <form>
+      <fieldset>
+        <legend><b>Weather By City</b></legend>
+        <label for="City"><b>Enter City</b></label>
+        <input type="text" name="city" id="city">     
+        <input type="submit" id="citySubmit">
+      </fieldset>
+    </form>    
+  </br>
+    <div id="responseArea">
+      <p><b>City: </b><span id="cityResponse"></span></p>
+      <p><b>Temperature: </b><span id="temperatureResponse"></span></p>
+      <p><b>Humidty: </b><span id="humidityResponse"></span></p>
+      <p><b>Sunrise: </b><span id="sunriseResponse"></span></p>
+      <p><b>Sunset: </b><span id="sunsetResponse"></span></p>
+    </div>
+  </body>
+  <script src="weatherScript.js"></script>
+</html>
